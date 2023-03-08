@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <script src="./js/jquery.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <nav class="gnb">
+          <div class="hamburger">
+            <span class="ham"></span>
+            <span class="ham"></span>
+            <span class="ham"></span>
+          </div>
+        </nav>
+        <h1 class="logo"></h1>
+        <ul class="gnb-ul">
+          <li><a href="#about" class="scroll_move">ABOUT</a></li>
+          <li><a href="#portfolio" class="scroll_move">PORTFOLIO</a></li>
+          <li><a href="#contact" class="scroll_move">CONTACT</a></li>
+        </ul>
+      </header>
+      <section class="main-banner">
+        <div class="scroll-link">
+          <svg
+            class="mouse"
+            xmlns="..."
+            viewBox="0 0 76 130"
+            preserveAspectRatio="xMidYmid meet"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <rect
+                width="70"
+                height="118"
+                x="1.5"
+                y="1.5"
+                stroke="#FFF"
+                stroke-width="3"
+                rx="36"
+              />
+              <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF" />
+            </g>
+          </svg>
+        </div>
+        <div class="main-left">
+          <div class="object-moon"></div>
+        </div>
+        <div class="main-center">
+          <div class="center-top"></div>
+          <div class="center-bottom">
+            <div class="wrapper bottom-1">nothing in</div>
+            <!-- <div class="bottom-1"><span class="overay"></span></div> -->
+            <div class="wrapper bottom-2">impossible</div>
+            <div class="wrapper bottom-3">
+              <div class="typing-demo">in <span>design</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-right">
+          <div class="right-top"></div>
+          <div class="right-bottom"></div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-left">
+          <span class="img-cloud"></span>
+          <span class="img-cloud"></span>
+        </div>
+        <div class="about-right">
+          <div class="introduce">
+            <span class="title-text">HELLO</span>
+            <div class="text">
+              안녕하세요! 디자이너 겸 퍼블리셔 김 수빈입니다. 다양한 디자인과
+              개발 프로젝트를 수행하며 기술과 능력을 발전시키고, UI/UX 디자인과
+              웹 퍼블리싱을 능숙하게 다룹니다. 끊임없이 발전하고 성장하는
+              디자이너로서 최고 수준의 웹사이트를 구현하겠습니다. 감사합니다.
+            </div>
+            <button
+              class="btn-more popup-open-btn"
+              onclick="helloshow"
+            ></button>
+          </div>
+          <div class="about-bottom">
+            <div class="tools">
+              <span class="title-small">TOOLS</span>
+              <span class="text-small">
+                Adobe Photoshop / Adobe Illustrator/ Adobe XD / Figma / git
+              </span>
+            </div>
+            <div class="skills">
+              <span class="title-small">SKILL</span>
+              <span class="text-small"> HTML / CSS / Javascript </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="title">001</div>
+              <div class="con"></div>
+            </li>
+            <li class="swiper-slide">
+              <div class="title">002</div>
+              <div class="con"></div>
+            </li>
+            <li class="swiper-slide">
+              <div class="title">003</div>
+              <div class="con"></div>
+            </li>
+            <li class="swiper-slide">
+              <div class="title">004</div>
+              <div class="con"></div>
+            </li>
+            <li class="swiper-slide">
+              <div class="title">005</div>
+              <div class="con"></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="email-form">
+          <div class="row">
+            <input type="text" class="input-text" placeholder="YOUR NAME" />
+          </div>
+          <div class="row">
+            <input type="text" class="input-text" placeholder="YOUR EMAIL" />
+          </div>
+          <div class="row large">
+            <textarea class="input-text" rows="10"></textarea>
+          </div>
+          <button class="btn-sand">SAND</button>
+        </div>
+        <div class="contact-title">
+          <div class="line"></div>
+          <div class="title-text">CONTACT ME</div>
+          <span class="text"
+            >a47956295@gmail.com<br />
+            (+82) 10-2151-1118</span
+          >
+          <div class="text-small">
+            Get in touch via contact form or email us directly. <br />i will get
+            back to you as soon as possible.
+          </div>
+          <div class="moon_2"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span class="copyright"
+          >Copyright 2023 subinkim All rights reserved.</span
+        >
+      </footer>
+    </div>
+    <a class="return-top">위로오오오오오오</a>
+    <div class="dim-layer">
+      <div class="popup hello">
+        <div class="pop-title">
+          <div class="title-wrap">
+            <div class="title-text">hello</div>
+          </div>
+          <div class="pop-close-wrap">
+            <button class="pop-close-btn"></button>
+          </div>
+        </div>
+        <div class="pop-inner">
+          <div class="scroll-wrap left">
+            <ul class="company">
+              <li>
+                2015.02-2016.02 무드셀라
+                <ul class="work">
+                  <li>온라인 여성 의류 쇼핑몰(카페24) 사용</li>
+                  <li>
+                    GS SHOP, 롯데몰, 롯데아이몰, 패션플러스등 다양한 쇼핑몰 상품
+                    업로드 및 기획전 등록
+                  </li>
+                  <li>상품 출고 및 배송관리</li>
+                  <li>상세페이지 작업</li>
+                  <li>사방넷 사용</li>
+                </ul>
+              </li>
+              <li>
+                2016.02-2016.11 더미니
+                <ul class="work">
+                  <li>온라인 여성 의류 쇼핑몰(카페24) 사용</li>
+                  <li>
+                    쿠팡, 티몬, 위메프 등 소셜커머스 상품 업로드 및 기획전 등록
+                  </li>
+                  <li>상세페이지 작업</li>
+                </ul>
+              </li>
+
+              <li>
+                2016.11-2021.08 신우산업안전
+                <ul class="work">
+                  <li>AUTO CAD를 사용한 도면 설계</li>
+                  <li>카탈로그, 명함, 리플렛 등 출판물 디자인</li>
+                  <li>상세페이지 작업</li>
+                  <li>회사소개서 및 사업계획서 프레젠테이션 디자인</li>
+                </ul>
+              </li>
+              <li>
+                2022.02-현재 (주)캐롯아이
+                <ul class="work">
+                  <li>UI 디자인</li>
+                  <li>웹 퍼블리싱</li>
+                  <li>
+                    LS Electronic, SK planet, ellux 내부 프로젝트 신규 디자인 및
+                    유지 보수
+                  </li>
+                  <li>
+                    사내 자체 프로젝트(어플, 스마트팩토리) 디자인 및 퍼블리싱
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 팝업영역 -->
