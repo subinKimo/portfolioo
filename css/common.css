@@ -54,7 +54,7 @@ button {
 button {
   border: none;
   outline: none;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 input[type=search]::-webkit-search-cancel-button {
@@ -214,6 +214,7 @@ header .gnb-ul li a {
   font-style: italic;
   font-weight: 700;
   font-size: 36px;
+  cursor: pointer !important;
 }
 header .gnb-ul li a::after {
   width: 0px;
@@ -695,7 +696,6 @@ footer .copyright {
 }
 
 .popup {
-  display: none;
   position: fixed;
   width: 1640px;
   height: 910px;
