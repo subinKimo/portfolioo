@@ -1,4 +1,4 @@
-@media (max-width: 1169px) and (min-width: 360px) {
+@media (max-width: 849px) and (min-width: 360px) {
   body {
     width: 100%;
     margin: 0 auto;
@@ -112,15 +112,15 @@
     height: 600px;
     width: 100%;
     overflow: hidden;
+    display: flex;
   }
   .main-banner div {
     display: inline-block;
   }
   .main-banner .main-left {
-    width: 0px;
+    width: 78px;
     height: 0px;
     position: relative;
-    border-right: none;
   }
   .main-banner .main-left .object-moon {
     display: inline-block;
@@ -129,8 +129,8 @@
     background-image: url(../img/moon.svg);
     background-repeat: no-repeat;
     position: absolute;
-    top: 32px;
-    left: 32px;
+    top: 24px;
+    left: 24px;
     animation: rotate_image 20s linear infinite;
     transform-origin: 50% 50%;
     background-size: cover;
@@ -143,6 +143,7 @@
   .main-banner .main-center {
     width: 100%;
     height: 100%;
+    display: none;
     overflow: hidden;
   }
   .main-banner .main-center .center-top {
@@ -238,21 +239,32 @@
   }
   .main-banner .main-right {
     border-left: 2px solid #060606;
-    width: 400px;
+    width: calc(100% - 80px);
     height: 100%;
     float: right;
-    display: none;
   }
   .main-banner .main-right .right-top {
     border-bottom: 2px solid #060606;
-    height: 500px;
+    height: 50%;
     width: 100%;
+    overflow: hidden;
+    font-size: 9rem;
+    line-height: 504px;
+    font-weight: 700;
+    font-family: "helvetica";
+    font-style: italic;
+    padding: 16px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px #060606;
   }
   .main-banner .main-right .right-bottom {
     width: 100%;
-    height: calc(100% - 500px);
+    height: 50%;
     background-image: url(../img/universe.png);
-    background-position: 40px center;
+    background-position: right center;
     background-repeat: no-repeat;
   }
   .scroll-link {
@@ -303,7 +315,7 @@
   }
   .about {
     width: 100%;
-    height: 700px;
+    height: 600px;
   }
   .about .about-left {
     width: 100%;
@@ -313,6 +325,7 @@
     border-bottom: 2px solid #060606;
     background-image: url(../img/cloud_bg.png);
     background-size: cover;
+    display: none;
   }
   .about .about-left .img-cloud {
     width: 607px;

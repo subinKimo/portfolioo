@@ -116,6 +116,7 @@ $border: 2px solid #060606;
     position: relative;
     height: 800px;
     display: flex;
+    align-items: flex-start;
     div {
       display: inline-block;
     }
@@ -124,7 +125,7 @@ $border: 2px solid #060606;
       height: 800px;
       position: relative;
       //   border-right: none;
-      border-radius: $border;
+      border-right: $border;
       .object-moon {
         display: inline-block;
         width: 350px;
@@ -251,8 +252,9 @@ $border: 2px solid #060606;
       float: right;
       .right-top {
         border-bottom: 2px solid #060606;
-        height: 500px;
+        height: 502px;
         width: 100%;
+        color: transparent;
       }
       .right-bottom {
         width: 100%;
@@ -337,6 +339,7 @@ $border: 2px solid #060606;
     .about-right {
       width: 60%;
       height: 100%;
+      float: right;
       // background-color: red;
       .introduce {
         width: 100%;

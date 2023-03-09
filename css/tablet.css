@@ -1,4 +1,4 @@
-@media (max-width: 1439px) and (min-width: 1170px) {
+@media (max-width: 1439px) and (min-width: 850px) {
   body {
     width: 100%;
     height: 3920px;
@@ -112,6 +112,7 @@
     position: relative;
     height: 800px;
     display: flex;
+    align-items: flex-start;
   }
   .main-banner div {
     display: inline-block;
@@ -240,8 +241,9 @@
   }
   .main-banner .main-right .right-top {
     border-bottom: 2px solid #060606;
-    height: 500px;
+    height: 502px;
     width: 100%;
+    color: transparent;
   }
   .main-banner .main-right .right-bottom {
     width: 100%;
@@ -380,7 +382,7 @@
     font-style: italic;
     font-weight: 700;
     font-size: 9rem;
-    line-height: 90rem;
+    line-height: 9rem;
     z-index: 99;
   }
   .title-small {

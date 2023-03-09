@@ -112,6 +112,7 @@
     position: relative;
     height: 800px;
     display: flex;
+    align-items: flex-start;
   }
   .main-banner div {
     display: inline-block;
@@ -239,8 +240,9 @@
   }
   .main-banner .main-right .right-top {
     border-bottom: 2px solid #060606;
-    height: 500px;
+    height: 502px;
     width: 100%;
+    color: transparent;
   }
   .main-banner .main-right .right-bottom {
     width: 100%;

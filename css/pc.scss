@@ -116,6 +116,7 @@ $border: 2px solid #060606;
     position: relative;
     height: 800px;
     display: flex;
+    align-items: flex-start;
     div {
       display: inline-block;
     }
@@ -249,8 +250,9 @@ $border: 2px solid #060606;
       float: right;
       .right-top {
         border-bottom: 2px solid #060606;
-        height: 500px;
+        height: 502px;
         width: 100%;
+        color: transparent;
       }
       .right-bottom {
         width: 100%;
