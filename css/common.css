@@ -5,10 +5,11 @@
   font-family: "SUIT", sans-serif, "helvetica";
   color: #060606;
   letter-spacing: -0.4px;
+  cursor: url(../img/cursor.png), url(../img/cursor.svg), default;
 }
 
 a {
-  cursor: pointer;
+  cursor: url(../img/pointer.png), pointer;
   text-decoration: none;
 }
 
@@ -54,7 +55,7 @@ button {
 button {
   border: none;
   outline: none;
-  cursor: pointer !important;
+  cursor: url(../img/pointer.png), pointer;
 }
 
 input[type=search]::-webkit-search-cancel-button {
@@ -214,7 +215,6 @@ header .gnb-ul li a {
   font-style: italic;
   font-weight: 700;
   font-size: 36px;
-  cursor: pointer !important;
 }
 header .gnb-ul li a::after {
   width: 0px;
@@ -376,7 +376,7 @@ section {
 .main-banner .main-right .right-bottom {
   width: 100%;
   height: calc(100% - 500px);
-  background-image: url(../img/universe.svg);
+  background-image: url(../img/universe.png);
   background-position: 40px center;
   background-repeat: no-repeat;
 }
@@ -571,7 +571,7 @@ section {
   border: 2px solid #060606 !important;
   margin: 25px;
   transition-duration: 0.4s;
-  cursor: pointer;
+  cursor: url(../img/pointer.png), url(../img/pointer.svg), pointer;
 }
 .swiper-slide:nth-of-type(2n) {
   margin-top: 100px;
@@ -589,10 +589,13 @@ section {
   font-size: 85px;
   line-height: 74px;
   font-style: italic;
+  cursor: url(../img/pointer.png), url(../img/pointer.svg), pointer;
 }
 .swiper-slide .con {
   width: 100%;
   height: calc(100% - 74px);
+  background-color: #5fff5b;
+  cursor: url(../img/pointer.png), url(../img/pointer.svg), pointer;
 }
 
 .contact {
@@ -735,7 +738,7 @@ footer .copyright {
   width: 620px;
   height: 150px;
   border-left: 2px solid #060606;
-  cursor: pointer;
+  cursor: url(../img/pointer.png), pointer;
   background-image: url(../img/btn-close.svg);
   background-repeat: no-repeat;
   background-position: right top;
