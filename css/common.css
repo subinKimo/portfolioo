@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "SUIT", sans-serif;
+  font-family: "SUIT", sans-serif, "helvetica";
   color: #060606;
   letter-spacing: -0.4px;
 }
@@ -291,7 +291,7 @@ section {
   font-weight: 900;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "hervetica";
+  font-family: "helvetica";
   text-transform: uppercase;
   font-style: italic;
   /* identical to box height */
@@ -323,7 +323,7 @@ section {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: "hervetica";
+  font-family: "helvetica";
   text-transform: uppercase;
   font-style: italic;
 }
