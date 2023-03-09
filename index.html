@@ -107,7 +107,7 @@
             </div>
             <button
               class="btn-more popup-open-btn"
-              onclick="helloshow"
+              onclick="helloopen();"
             ></button>
           </div>
           <div class="about-bottom">
@@ -127,7 +127,7 @@
       <section class="portfolio" id="portfolio">
         <div class="swiper">
           <ul class="swiper-wrapper">
-            <li class="swiper-slide">
+            <li class="swiper-slide popup-open-btn" onclick="p001();">
               <div class="title">001</div>
               <div class="con"></div>
             </li>
@@ -186,7 +186,7 @@
     </div>
     <a class="return-top">위로오오오오오오</a>
     <!-- 팝업 -->
-    <div class="dim-layer">
+    <div class="dim-layer" id="hello">
       <div class="popup hello">
         <div class="pop-title">
           <div class="title-wrap">
@@ -256,7 +256,7 @@
       </div>
     </div>
     <!-- 001 -->
-    <div class="dim-layer">
+    <div class="dim-layer" id="p001">
       <div class="popup">
         <div class="pop-title">
           <div class="title-wrap">

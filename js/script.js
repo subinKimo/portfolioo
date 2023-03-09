@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
       top: -scrollHeight, // 최상위 div에 현재 스크롤된값 = 보이는화면만큼 top값 추가
     });
 
-    $(".dim-layer, .popup").show(); //팝업 띄우기
+    // $(".dim-layer, .popup").show(); //팝업 띄우기
   });
 
   //팝업 닫기버튼 클릭
@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
 
     $("html").scrollTop(scrollHeight); //현재 스크롤된값=보이는화면
 
-    $(".dim-layer, .popup").hide(); //팝업 숨김
+    $(".dim-layer").css("display", "none"); //팝업 숨김
   });
 });
 
@@ -94,3 +94,9 @@ $(function () {
     pauseOnHover: true, // 이걸 true로 해두면 마우스 호버 시에 슬라이드가 안 움직인다.
   });
 });
+function helloopen() {
+  document.getElementById("hello").style.display = "block";
+}
+function p001() {
+  document.getElementById("p001").style.display = "block";
+}
