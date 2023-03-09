@@ -755,7 +755,15 @@ footer .copyright {
   float: right;
   height: 100%;
   border-left: 2px solid #060606;
-  padding: 36px;
+}
+.popup .pop-inner .right .right-top {
+  width: 100%;
+  height: 600px;
+  border-bottom: 2px solid #060606;
+}
+.popup .pop-inner .right .right-bottom {
+  width: 100%;
+  height: calc(100% - 600px);
 }
 
 .pop-wrap {
@@ -790,7 +798,7 @@ ul.work > li {
   list-style: disc;
 }
 
-.popup.hello .pop-inner .right {
+.popup.hello .pop-inner .right-top {
   background-image: url(../img/cloud_bg.png);
   background-repeat: no-repeat;
 }
